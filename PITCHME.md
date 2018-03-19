@@ -61,7 +61,7 @@ class Persona {
 ## Diagrama 
 Usant [Gravizo](http://ww.gravizo.com) , es posa la URL de la imatge https://g.gravizo.com/svg? seguit de la descripció.
 Des de (http://ww.gravizo.com/#converter)
-![UML](<img src='https://g.gravizo.com/svg?
+![UML]('https://g.gravizo.com/svg?
 @startuml;
 
 class Persona {;
@@ -72,7 +72,11 @@ class Persona {;
   -int setEdat%28%29;
   +int getEdat%28%29;
   ~String getDni%28%29	;
-};)
+};
+
+@enduml;
+            
+')
 ---
 ## Obecte / Instanciació
 ### Constructors
