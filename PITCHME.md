@@ -1,52 +1,51 @@
-<!-- page_number: true -->
-# UML
+## UML
 - Conjunt de diagrames  modelitzar l'etapa de disseny.
 - Què obtenim?
 	- Especificar de manera gràfica els 
 	- Posar el breakpoint a la línia que hi ha l'error
 	- Mostrar les variables implcades com evoluionen i trobar l'error
 ---
-# Classe
-
+## Classe
  	- És l'especificació d'objectes amb característiques i comportaments similars.
  	- Al programar aquesta classe, després podrem usar objectes d'aquesta.
-
+---
 Exemples:  
 	* [Formulari inscripció] (https://alacarral.net/images/documents/estiu2017/inscripcio_estiu_2017.pdf)
 	* [IKEA](https://www.ikea.com/es/es/assembly_instructions/alex-cajonera__AA-844481-2_pub.pdf)
 	* [Coche lego] (https://www.lego.com/biassets/bi/4639848.pdf)
 ---
-# Propietats / atributs
+## Propietats / atributs
 	- Quines dades fan especial a cada objecte (element) de la classe.
 	- Les propietats són valors que es necessiten.
 	- Cada propietat té un tipus i un valor.
 	- *Es defineixen com a variables de la classe*
 --- 
-# Mètodes
-
+## Mètodes
 	- Són les accions que pot fer cada objecte de la classe.
 	- Es defineixen 
 --- 
-# Visiblitat dels mètodes / atributs
-
+## Visiblitat dels mètodes / atributs
+	- privats Només es visible en l'àmbit de programaci de la classe. UML és - 		
+	- públics visible per tothom. UML és +
+	- protegits visible per les classes que heredin. UML és #
+	- package només a nivell del paquiet on estan definides les classes. UML és ~
 ---
-# Atributs / mètodes inherents 
+## Atributs / mètodes inherents 
 
 Quan programem una classe tenim un objecte que ens ve definit. És el objecte en si mateix de la classe. 
 El que s'està creant. En Java és **this** i en Python és **self**
 
 També hi ha una sèrie de mètodes que estan ja predefinits al fer una classe. Per exemple: com convertir un objecte a String.
 ---
-# Traducció a UML
+## Traducció a UML
 Usarem eines gràfiques:
 	- [Extensió per a Eclipse] (https://marketplace.eclipse.org/content/uml-designer)
 	- Lucid Chart (incorporat al Drive)
-	-  [Draw.io](http://www.draw.io)
+	- [Draw.io](http://www.draw.io)
 O qui vulgui codificant usant [PlantUML](http://plantuml.com/class-diagram)
 --- 
-# Exemple UML
+## Exemple UML
 Classe persona:
-
 ```planUML
 @startuml
 class Persona {
@@ -61,7 +60,7 @@ class Persona {
 @enduml
 ```
 ---
-# Diagrama 
+## Diagrama 
 Usant [Gravizo](http://ww.gravizo.com) , es posa la URL de la imatge https://g.gravizo.com/svg? seguit de la descripció.
 Des de (http://ww.gravizo.com/#converter)
 ![UML](<img src='https://g.gravizo.com/svg?
@@ -77,8 +76,8 @@ class Persona {;
   ~String getDni%28%29	;
 };)
 ---
-# Obecte / Instanciació
-## Constructors
+## Obecte / Instanciació
+### Constructors
 Mètodes que es criden quan es crea un objecte d'una classe.
 ```java
 public class Persona {
@@ -94,6 +93,7 @@ public class Persona {
 	}
 }
 ```
+---
 ```python
 class Persona: 
 	nom=''
