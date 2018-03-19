@@ -1,9 +1,7 @@
 ## UML
-- Conjunt de diagrames  modelitzar l'etapa de disseny.
-- Què obtenim?
-	- Especificar de manera gràfica els 
-	- Posar el breakpoint a la línia que hi ha l'error
-	- Mostrar les variables implcades com evoluionen i trobar l'error
+- Conjunt de diagrames  que modelitzen l'etapa de disseny.
+- Hi ha diversos però primer ens centrem en els estàtic concretament en els de classes.
+
 ---
 ## Classe
  	- És l'especificació d'objectes amb característiques i comportaments similars.
