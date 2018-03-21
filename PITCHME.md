@@ -7,10 +7,10 @@
  - És l'especificació d'objectes amb característiques i comportaments similars.
  - Al programar aquesta classe, després podrem usar objectes d'aquesta.
 ---
-###Exemples:  
-- [Formulari inscripció](https://alacarral.net/images/documents/estiu2017/inscripcio_estiu_2017.pdf)
-- [IKEA](https://www.ikea.com/es/es/assembly_instructions/alex-cajonera__AA-844481-2_pub.pdf)
-- [Coche lego](https://www.lego.com/biassets/bi/4639848.pdf)
+### Exemples:  
+	- [Formulari inscripció](https://alacarral.net/images/documents/estiu2017/inscripcio_estiu_2017.pdf)
+	- [IKEA](https://www.ikea.com/es/es/assembly_instructions/alex-cajonera__AA-844481-2_pub.pdf)
+	- [Coche lego](https://www.lego.com/biassets/bi/4639848.pdf)
 ---
 ## Propietats / atributs
 	- Quines dades fan especial a cada objecte (element) de la classe.
