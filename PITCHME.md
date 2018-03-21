@@ -34,6 +34,7 @@ Quan programem una classe tenim un objecte que ens ve definit. És el objecte en
 El que s'està creant. En Java és **this** i en Python és **self**.
 
 També hi ha una sèrie de mètodes que estan ja predefinits al fer una classe. Per exemple: com convertir un objecte a String.
+
 ---
 ## Traducció a UML
 Usarem eines gràfiques:
@@ -42,13 +43,14 @@ Usarem eines gràfiques:
 - [Draw.io](http://www.draw.io)
 
 O qui vulgui codificant usant [PlantUML](http://plantuml.com/class-diagram)
+
 --- 
 ## Exemple UML
 ![Classe UML](ClasseUML.png)|![Persona UML](PersonaUML.png)
 ---
 ## Exemple UML
 Classe persona:
-```planUML
+```plantUML
 @startuml
 class Persona {
   +String nom
@@ -63,26 +65,14 @@ class Persona {
 ```
 ---
 ## Diagrama 
-Usant [Gravizo](http://ww.gravizo.com) , es posa la URL de la imatge https://g.gravizo.com/svg? seguit de la descripció.
 
-Des de (http://ww.gravizo.com/#converter)
+El codi anterior es pot passar a diagrama usant serveis web com:
 
-![UML]('https://g.gravizo.com/svg?
-@startuml;
+- [Gravizo](http://ww.gravizo.com), es posa la URL de la imatge https://g.gravizo.com/svg? seguit de la descripció. Des de (http://ww.gravizo.com/#converter)
 
-class Persona {;
-  +String nom;
-  -int edat ;
-  %23String dni;
-  ;
-  -int setEdat%28%29;
-  +int getEdat%28%29;
-  ~String getDni%28%29	;
-};
+- [PlantUML](http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000) 
 
-@enduml;
-            
-')
+![UML](http://www.plantuml.com/plantum/png/SoWkIImgAStDuKhEIImkLWX8BIhEpqjKgEPIKD0EBYdAp4jNoClF1V9qC_DA559J4aiKW1nbg5HANYQG1vCjJYrn1IhGq0Hf1Wca8mdKGRI0n5poCZKqERbgkHnIyrA0TWC0)
 
 ---
 ## Obecte / Instanciació
