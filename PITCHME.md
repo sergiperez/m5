@@ -109,7 +109,9 @@ public class Persona {
 		return false;
 	}
 }
-```|```python
+```
+---
+```python
 class Persona: 
 	nom=''
 	__edat=0
