@@ -4,28 +4,29 @@
 ---
 ## Classe
  - És l'especificació d'objectes amb característiques i comportaments similars.
- - Al programar aquesta classe, després podrem usar objectes d'aquesta.
+ - S'encapsula tot el que pot fer un objecte dins la classe.
+ - La classe es programa per després poder usar objectes d'aquesta. Des d'altres trossos de codi.
 ---
 ### Exemples:  
-	- [Formulari inscripció](https://alacarral.net/images/documents/estiu2017/inscripcio_estiu_2017.pdf)
-	- [IKEA](https://www.ikea.com/es/es/assembly_instructions/alex-cajonera__AA-844481-2_pub.pdf)
-	- [Coche lego](https://www.lego.com/biassets/bi/4639848.pdf)
+- [Formulari inscripció](https://alacarral.net/images/documents/estiu2017/inscripcio_estiu_2017.pdf)
+- [IKEA](https://www.ikea.com/es/es/assembly_instructions/alex-cajonera__AA-844481-2_pub.pdf)
+- [Coche lego](https://www.lego.com/biassets/bi/4639848.pdf)
 ---
 ## Propietats / atributs
-	- Quines dades fan especial a cada objecte (element) de la classe.
-	- Les propietats són valors que es necessiten.
-	- Cada propietat té un tipus i un valor.
-	- *Es defineixen com a variables de la classe*
+- Quines dades fan especial a cada objecte (element) de la classe.
+- Les propietats són valors que es necessiten.
+- Cada propietat té un tipus i un valor.
+- *Variables de la classe*
 --- 
 ## Mètodes
-	- Són les accions que pot fer cada objecte de la classe.
-	- Es defineixen 
+- Són les accions que pot fer cada objecte de la classe.
+- Es defineixen com funcions de la classe.
 --- 
 ## Visiblitat dels mètodes / atributs
-	- privats Només es visible en l'àmbit de programaci de la classe. UML és - 		
-	- públics visible per tothom. UML és +
-	- protegits visible per les classes que heredin. UML és #
-	- package només a nivell del paquiet on estan definides les classes. UML és ~
+- **privats** En UML - . El seu àmbit és la pròpia classe, només es pot usar des del codi que defineix la classe.
+- **públics** En UML és + . Tothom amb accés a la classe pot usar l'atribut o mètode.
+- **protegits** En UML és #. Només poden usar-lo les seves classes descendents. Les que hereden d'ella.
+- **package** En UML és ~. Només poden usar aquelles classes / codi que està en el mateix paquet.
 ---
 ## Atributs / mètodes inherents 
 Quan programem una classe tenim un objecte que ens ve definit. És el objecte en si mateix de la classe. 
@@ -34,9 +35,9 @@ També hi ha una sèrie de mètodes que estan ja predefinits al fer una classe. 
 ---
 ## Traducció a UML
 Usarem eines gràfiques:
-	- [Extensió per a Eclipse] (https://marketplace.eclipse.org/content/uml-designer)
-	- Lucid Chart (incorporat al Drive)
-	- [Draw.io](http://www.draw.io)
+- [Extensió per a Eclipse] (https://marketplace.eclipse.org/content/uml-designer)
+- Lucid Chart (incorporat al Drive)
+- [Draw.io](http://www.draw.io)
 O qui vulgui codificant usant [PlantUML](http://plantuml.com/class-diagram)
 --- 
 ## Exemple UML
