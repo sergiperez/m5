@@ -30,7 +30,9 @@
 ---
 ## Atributs / mètodes inherents 
 Quan programem una classe tenim un objecte que ens ve definit. És el objecte en si mateix de la classe. 
+
 El que s'està creant. En Java és **this** i en Python és **self**.
+
 També hi ha una sèrie de mètodes que estan ja predefinits al fer una classe. Per exemple: com convertir un objecte a String.
 ---
 ## Traducció a UML
@@ -38,6 +40,7 @@ Usarem eines gràfiques:
 - [Extensió per a Eclipse] (https://marketplace.eclipse.org/content/uml-designer)
 - Lucid Chart (incorporat al Drive)
 - [Draw.io](http://www.draw.io)
+
 O qui vulgui codificant usant [PlantUML](http://plantuml.com/class-diagram)
 --- 
 ## Exemple UML
@@ -61,7 +64,9 @@ class Persona {
 ---
 ## Diagrama 
 Usant [Gravizo](http://ww.gravizo.com) , es posa la URL de la imatge https://g.gravizo.com/svg? seguit de la descripció.
+
 Des de (http://ww.gravizo.com/#converter)
+
 ![UML]('https://g.gravizo.com/svg?
 @startuml;
 
@@ -78,10 +83,19 @@ class Persona {;
 @enduml;
             
 ')
+
 ---
 ## Obecte / Instanciació
 ### Constructors
-Mètodes que es criden quan es crea un objecte d'una classe.
+Són els mètodes que es criden quan s'instancia un objecte. 
+
+Es crea un objecte d'una classe.
+
+El nom del mètode és el mateix que el de la classe i no retorna res.
+
+---
+## Obecte / Instanciació
+### Constructors
 ```java
 public class Persona {
 	String nom;
@@ -96,7 +110,7 @@ public class Persona {
 	}
 }
 ```
----
+|
 ```python
 class Persona: 
 	nom=''
