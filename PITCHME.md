@@ -25,28 +25,34 @@
 ## Visiblitat dels mètodes / atributs
 - **privats** En UML - . El seu àmbit és la pròpia classe, només es pot usar des del codi que defineix la classe.
 - **públics** En UML és + . Tothom amb accés a la classe pot usar l'atribut o mètode.
+--- 
+## Visiblitat dels mètodes / atributs
 - **protegits** En UML és #. Només poden usar-lo les seves classes descendents. Les que hereden d'ella.
 - **package** En UML és ~. Només poden usar aquelles classes / codi que està en el mateix paquet.
 ---
-## Atributs / mètodes inherents 
-Quan programem una classe tenim un objecte que ens ve definit. És el objecte en si mateix de la classe. 
+## Atributs / mètodes ímplicits
+- Quan programem una classe tenim un objecte que ens ve definit. És el objecte en si mateix de la classe. 
 
-El que s'està creant. En Java és **this** i en Python és **self**.
+- El que s'està creant. En Java és **this** i en Python és **self**.
+---
+## Atributs / mètodes ímplicits
 
-També hi ha una sèrie de mètodes que estan ja predefinits al fer una classe. Per exemple: com convertir un objecte a String.
+També hi ha una sèrie de mètodes que estan ja predefinits al fer una classe. 
+- Convertir entre tipus de dades.
+- Per exemple un molt usat, com es converteix a cadena l'objecte.
 
 ---
+
 ## Traducció a UML
 Usarem eines gràfiques:
-- [Extensió per a Eclipse] (https://marketplace.eclipse.org/content/uml-designer)
+- [Extensió per a Eclipse](https://marketplace.eclipse.org/content/uml-designer)
 - Lucid Chart (incorporat al Drive)
 - [Draw.io](http://www.draw.io)
-
-O qui vulgui codificant usant [PlantUML](http://plantuml.com/class-diagram)
-
+- O codificant usant [PlantUML](http://plantuml.com/class-diagram)
 --- 
 ## Exemple UML
-![Classe UML](ClasseUML.png)|![Persona UML](PersonaUML.png)
+![Classe UML](ClasseUML.png)
+![Persona UML](PersonaUML.png)
 ---
 ## Exemple UML
 Classe persona:
@@ -68,20 +74,22 @@ class Persona {
 
 El codi anterior es pot passar a diagrama usant serveis web com:
 
-- [Gravizo](http://ww.gravizo.com), es posa la URL de la imatge https://g.gravizo.com/svg? seguit de la descripció. Des de (http://ww.gravizo.com/#converter)
+- [Gravizo](http://ww.gravizo.com) o [PlantUML](http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000) 
 
-- [PlantUML](http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000) 
+Resultat usant PlantUML:
 
 ![UML](http://www.plantuml.com/plantuml/png/SoWkIImgAStDuKhEIImkLWX8BIhEpqjKgEPIKD0EBYdAp4jNoClF1V9qC_DA559J4aiKW1nbg5HANYQG1vCjJYrn1IhGq0Hf1Wca8mdKGRI0n5poCZKqERbgkHnIyrA0TWC0)
 
 ---
+
 ## Obecte / Instanciació
 ### Constructors
-Són els mètodes que es criden quan s'instancia un objecte. 
 
-Es crea un objecte d'una classe.
+- Són els mètodes que es criden quan s'instancia un objecte. 
 
-El nom del mètode és el mateix que el de la classe i no retorna res.
+- Es crea un objecte d'una classe.
+
+- El nom del mètode és el mateix que el de la classe i no retorna res.
 
 ---
 ## Obecte / Instanciació
@@ -141,12 +149,16 @@ public class Institut {
 p = Persona("Sergi Pérez",23)
 if (p.esMajor()) print(p.nom)
 ```
+---
+# Polimorfisme
+- Quan un mètode es defineix diverses vegades a la classe. Per què:
+  - Es passen paràmetres diferents pel que fa al tipus o el nombre.
+  - Retorna un tipus de dades diferent.
+- Exemple tenir diversos constructors. A Persona un amb el nom i l'altre amb nom i edat.
 --- 
 # Relacions entre classes: herència, composició i agregació
 ---
 # Sobrecàrrega
 ---
 # Encapsulament / seguretat
----
-# Polimorfisme
 --- 
