@@ -1,7 +1,6 @@
 ## UML
 - Conjunt de diagrames  que modelitzen l'etapa de disseny.
 - Hi ha diversos però primer ens centrem en els estàtic concretament en els de classes.
-
 ---
 ## Classe
  - És l'especificació d'objectes amb característiques i comportaments similars.
@@ -29,10 +28,8 @@
 	- package només a nivell del paquiet on estan definides les classes. UML és ~
 ---
 ## Atributs / mètodes inherents 
-
 Quan programem una classe tenim un objecte que ens ve definit. És el objecte en si mateix de la classe. 
-El que s'està creant. En Java és **this** i en Python és **self**
-
+El que s'està creant. En Java és **this** i en Python és **self**.
 També hi ha una sèrie de mètodes que estan ja predefinits al fer una classe. Per exemple: com convertir un objecte a String.
 ---
 ## Traducció a UML
@@ -42,6 +39,9 @@ Usarem eines gràfiques:
 	- [Draw.io](http://www.draw.io)
 O qui vulgui codificant usant [PlantUML](http://plantuml.com/class-diagram)
 --- 
+## Exemple UML
+![Classe UML](ClasseUML.png)|![Persona UML](PersonaUML.png)
+---
 ## Exemple UML
 Classe persona:
 ```planUML
