@@ -72,7 +72,8 @@ El codi anterior es pot passar a diagrama usant serveis web com:
 
 - [PlantUML](http://www.plantuml.com/plantuml/uml/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000) 
 
-![UML](http://www.plantuml.com/plantum/png/SoWkIImgAStDuKhEIImkLWX8BIhEpqjKgEPIKD0EBYdAp4jNoClF1V9qC_DA559J4aiKW1nbg5HANYQG1vCjJYrn1IhGq0Hf1Wca8mdKGRI0n5poCZKqERbgkHnIyrA0TWC0)
+![UML](http://www.plantuml.com:80/plantuml/png/SoWkIImgAStDuKhEIImkLWX8BIhEpqjKgEPIKD0EBYdAp4jNoClF1V9qC_DA559J4aiKW1nbg5HANYQG1vCjJYrn1IhGq0Hf1Wca8mdKGRI0n5poCZKqERbgkHnIyrA0TWC0)
+![Domain model in PlantUML](http://plantuml.com:80/plantuml/svg/3SNB4K8n2030LhI0XBlTy0YQpF394D2nUztBtfUHrE0AkStCVHu0WP_-MZdhgiD1RicMdLpXMJCK3TC3o2iEDwHSxvNVjWNDE43nv3zt731SSLbJ7onzbyeF)
 
 ---
 ## Obecte / Instanciació
