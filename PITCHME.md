@@ -150,15 +150,70 @@ p = Persona("Sergi Pérez",23)
 if (p.esMajor()) print(p.nom)
 ```
 ---
-# Polimorfisme
+# Sobrecàrrega d'un mètode
 - Quan un mètode es defineix diverses vegades a la classe. Per què:
   - Es passen paràmetres diferents pel que fa al tipus o el nombre.
   - Retorna un tipus de dades diferent.
 - Exemple tenir diversos constructors. A Persona un amb el nom i l'altre amb nom i edat.
 --- 
-# Relacions entre classes: herència, composició i agregació
+# Relacions entre classes: herència
+- Les classes es poden relacionar entre elles (normalment per reaprofitar codi).
+- Quan unes classes hereden codi d''una classe mare.
+- Les classes filles normalment sorgeixen per **especialització** de la classe mare.
+  - Hi ha un subgrup d'objectes que són / tenen comportament no comuns amb els altres objectes de la classe mare.
+- També pot ser que sorgeixi una classe mare de les filles. Per **generalització**.
+  - Hi ha moltes classes amb atributs o mètodes comuns, aquests s'agrupen en una nova classe que serà mare de totes.
 ---
-# Sobrecàrrega
+# Representació UML
+![UML](herencia.png)
+```plantuml
+@startuml
+Vehicle <|-- Cotxe
+Vehicle <|-- Bicicleta
+@enduml
+```
+---
+# Codificació Java
+```java
+public class Vehicle{
+   int nombreRodes;
+   int velocitatActual;
+   String nom;
+   public int accelerar(int acceleracio){this.velocitatActual+=acceleracio;}
+}
+public class Bicicleta extends Vehicle{
+
+}
+public class Cotxe extends Vehicle{
+}
+```
+---
+# Codificació Python
+```python
+class Vehicle:
+    nombreRodes=0
+    velocitatActual=0
+    nom=''
+    def accelerar(self,acceleracio):
+        self.velocitatActual+=acceleracio
+
+class Bicicleta(Vehicle):
+   pedals=2
+   def punxar(self):
+      velocitat=0
+class Cotxe(Vehicle):
+   motor
+```
+---
+---
+# Sobrecàrrega (II)
+- Es sobreescriu un mètode en una classe descendent.
+- Exemple:
+  - toString en Java. Mètode cridat quan s'usa el +.
+  - Accelerar no ho fan igual totes les classes herederes de Vehicle.
+---
+# Polimorfisme
+
 ---
 # Encapsulament / seguretat
 --- 
