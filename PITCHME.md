@@ -205,6 +205,25 @@ class Cotxe(Vehicle):
    motor
 ```
 ---
+# Agregació
+# Representació UML
+![UML](agregacio.png)
+```plantuml
+@startuml
+Empresa "1" o-- "n" Clients
+Empresa "1" o-- "3" Cotxe
+@enduml
+```
+---
+# Composició
+# Representació UML
+![UML](composicio.png)
+```plantuml
+@startuml
+Empresa "1" *-- "n" Empleat
+Empresa "1" *-- "4" Departament
+@enduml
+```
 ---
 # Sobrecàrrega (II)
 - Es sobreescriu un mètode en una classe descendent.
