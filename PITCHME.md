@@ -161,6 +161,7 @@ if (p.esMajor()) print(p.nom)
 - Quan unes classes hereden codi d''una classe mare.
 - Les classes filles normalment sorgeixen per **especialització** de la classe mare.
   - Hi ha un subgrup d'objectes que són / tenen comportament no comuns amb els altres objectes de la classe mare.
+---  
 - També pot ser que sorgeixi una classe mare de les filles. Per **generalització**.
   - Hi ha moltes classes amb atributs o mètodes comuns, aquests s'agrupen en una nova classe que serà mare de totes.
 ---
@@ -205,9 +206,6 @@ class Cotxe(Vehicle):
    motor
 ```
 ---
-# Agregació
-# Representació UML
-![UML](agregacio.png)
 ```plantuml
 @startuml
 Empresa "1" o-- "n" Clients
@@ -215,15 +213,21 @@ Empresa "1" o-- "3" Cotxe
 @enduml
 ```
 ---
-# Composició
+# Agregació
 # Representació UML
-![UML](composicio.png)
+![UML](agregacio.png)
+---
+# Composició
 ```plantuml
 @startuml
 Empresa "1" *-- "n" Empleat
 Empresa "1" *-- "4" Departament
 @enduml
 ```
+---
+3 Compisició 
+# Representació UML
+![UML](composicio.png)
 ---
 # Sobrecàrrega (II)
 - Es sobreescriu un mètode en una classe descendent.
