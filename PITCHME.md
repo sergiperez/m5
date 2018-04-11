@@ -159,9 +159,9 @@ if (p.esMajor()) print(p.nom)
 # Relacions entre classes: herència
 - Les classes es poden relacionar entre elles (normalment per reaprofitar codi).
 - Quan unes classes hereden codi d''una classe mare.
+---  
 - Les classes filles normalment sorgeixen per **especialització** de la classe mare.
   - Hi ha un subgrup d'objectes que són / tenen comportament no comuns amb els altres objectes de la classe mare.
----  
 - També pot ser que sorgeixi una classe mare de les filles. Per **generalització**.
   - Hi ha moltes classes amb atributs o mètodes comuns, aquests s'agrupen en una nova classe que serà mare de totes.
 ---
