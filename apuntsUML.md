@@ -1,5 +1,5 @@
 ## Index
-1. [Classe](#uml-classe)
+1. [Classe](#umlclasse)
 2. Propietats (atributs)
 3. Mètodes (funcions)
 4. Modificadors de visibilitat (private/public/protected)
