@@ -21,16 +21,16 @@ El tauler sap pintar-se per pantalla de la següent manera:
 |   |   |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |   |   |
 
-  | 0| 1| 2| 3| 4| 5| 6| 7
---|--|--|--|--|--|--|--|-- 
-7|TN|CN|AN|DN|RN|AN|CN|TN
-6|PN|PN|PN|PN|PN|PN|PN|PN
-5|  |  |  |  |  |  |  |  
-4|  |  |  |  |  |  |  |  
-3|  |  |  |  |  |  |  |  
-2|  |  |  |  |  |  |  |  
-1|PB|PB|PB|PB|PB|PB|PB|PB
-0|PN|PN|PN|PN|PN|PN|PN|PN
+|  | 0| 1| 2| 3| 4| 5| 6| 7|
+|--|--|--|--|--|--|--|--|-- |
+|7|TN|CN|AN|DN|RN|AN|CN|TN|
+|6|PN|PN|PN|PN|PN|PN|PN|PN|
+|5|  |  |  |  |  |  |  |  |
+|4|  |  |  |  |  |  |  |  |
+|3|  |  |  |  |  |  |  |  |
+|2|  |  |  |  |  |  |  |  |
+|1|PB|PB|PB|PB|PB|PB|PB|PB|
+|0|PN|PN|PN|PN|PN|PN|PN|PN|
  
 
 Col·locant sempre les peces de color blanc a la fila 1, la més inferior.
