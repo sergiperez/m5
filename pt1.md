@@ -9,8 +9,8 @@ Quan el tauler es crea les 16 peces es posen en la seva [posició inicial](https
 
 El tauler sap pintar-se per pantalla de la següent manera: 
 
-   | 0| 1| 2| 3| 4| 5| 6| 7
--- |-- |-- |-- |-- |-- |-- |-- |-- 
+  | 0| 1| 2| 3| 4| 5| 6| 7
+--|--|--|--|--|--|--|--|-- 
 7|TN|CN|AN|DN|RN|AN|CN|TN
 6|PN|PN|PN|PN|PN|PN|PN|PN
 5|  |  |  |  |  |  |  |  
@@ -19,7 +19,7 @@ El tauler sap pintar-se per pantalla de la següent manera:
 2|  |  |  |  |  |  |  |  
 1|PB|PB|PB|PB|PB|PB|PB|PB
 0|PN|PN|PN|PN|PN|PN|PN|PN
- |
+ 
 
 Col·locant sempre les peces de color blanc a la fila 1, la més inferior.
 El tauler demana a una peça [quins moviments](https://ca.wikipedia.org/wiki/Reglament_dels_escacs#Moviment_de_les_peces) pot fer (a quines caselles pot anar) i després filtra aquests moviments pels possibles (tauler sap on estan les altres fitxes i anul·la aquelles caselles que estan obstaculitzades per altres peces).
