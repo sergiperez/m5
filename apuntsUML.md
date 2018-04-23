@@ -30,15 +30,17 @@ S'ha de fer un programari de gestió d'una tenda que ven diversos tipus de produ
 Es detecten diversos elements (*entitats*) diferents: tenda, productes, treballadors, clients i cupons de descompte.
 
 #### Codis:
+##### Java
 
 ```java
 public class Tenda{
 }
 ```
-
+##### Python
 ```python
 class tenda:
 ```
+##### UML
 ```plantUML
 @startuml
 class Tenda {
