@@ -31,14 +31,21 @@ Es detecten diversos elements (*entitats*) diferents: tenda, productes, treballa
 
 #### Codis:
 
-'''java
+```java
 public class Tenda{
 }
-'''
+```
 
-'''python
+```python
 class tenda:
-'''
+```
+```plantUML
+@startuml
+class Tenda {
+}
+@enduml
+```
+![Tenda](tenda.png)
 
 ### Propietats
 
