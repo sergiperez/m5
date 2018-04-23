@@ -9,6 +9,18 @@ Quan el tauler es crea les 16 peces es posen en la seva [posició inicial](https
 
 El tauler sap pintar-se per pantalla de la següent manera: 
 
+|   |   |   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |   |
+
   | 0| 1| 2| 3| 4| 5| 6| 7
 --|--|--|--|--|--|--|--|-- 
 7|TN|CN|AN|DN|RN|AN|CN|TN
