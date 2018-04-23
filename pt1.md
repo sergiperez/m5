@@ -9,18 +9,6 @@ Quan el tauler es crea les 16 peces es posen en la seva [posició inicial](https
 
 El tauler sap pintar-se per pantalla de la següent manera: 
 
-|   |   |   |   |   |   |   |   |   |
-|---|---|---|---|---|---|---|---|---|
-|   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |   |
-
 |  | 0| 1| 2| 3| 4| 5| 6| 7|
 |--|--|--|--|--|--|--|--|-- |
 |7|TN|CN|AN|DN|RN|AN|CN|TN|
@@ -72,4 +60,24 @@ Els jugadors s'identifiquen per un correu electrònic i saben quin color tenen. 
 
 El jugador un cop se li mostra el tauler, indica al tauler quina peça vol moure: tria fila i columna. Aleshores el tauler li comunica al jugador a quines posicions pot moure la peça seleccionada i el jugador tria el moviment.
 Un cop triat al moviment aquella peça s'haurà de moure.
+
+
+### Valoració (mireu rúbrica la Moodle)
+
+Es valora:
+- Detecció de les classes correctament ( 1 punts )
+- Detecció i definició de les propietats de cada classe ( 1 punts )
+- Detecció i definició dels mètodes de cada classe ( 1 punts )
+- Detecció adequada de la visibilitat de cada propietat i mètode ( 0.5 punts )
+- Detecció de propietats o mètodes estàtics ( 0.5 punts )
+- Detecció de propietats / mètodes / classes abstractes ( 0.5 punts )
+- Definició dels diversos constructors ( 0.5 punts )
+- El disseny permet una implementació totalment encapsulada ( 1 punts )
+- Sobreescriptura de mètodes genèrics de Java ( 0. 5 pùnts )
+- Detectada les relacions entre les classes:
+   - Herència ( 1 punts )
+   - Agregació ( 1 punts )
+   - Associació ( 1 punts )
+- El disseny permet aplicar polimorfisme ( 0.5 punts )
+
 
