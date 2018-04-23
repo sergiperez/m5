@@ -4,8 +4,8 @@ Us han contractat per desenvolupar (preferiblement en Java) un joc que permeti a
 
 Una partida consta de dos jugadors i un tauler. 
 
-El tauler té 8 files i 8 columnes, inicialment 16 peces i indica sempre a quin jugador li toca jugar cada cop.
-Quan el tauler es crea les 16 peces es posen en la seva [posició inicial](https://ca.wikipedia.org/wiki/Reglament_dels_escacs#Posici%C3%B3_inicial) i indica que li toca jugar al jugador que té el color blanc. 
+El tauler té 8 files i 8 columnes, inicialment 32 peces i indica sempre a quin jugador li toca jugar cada cop.
+Quan el tauler es crea les 32 peces es posen en la seva [posició inicial](https://ca.wikipedia.org/wiki/Reglament_dels_escacs#Posici%C3%B3_inicial) i indica que li toca jugar al jugador que té el color blanc. 
 
 El tauler sap pintar-se per pantalla de la següent manera: 
 
